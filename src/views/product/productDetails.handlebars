@@ -1,0 +1,21 @@
+<h1>Producto agregado</h1>
+
+<ul>
+    <li>
+        <strong>-id:</strong> {{product.id}}</br>
+        <strong>-Title:</strong> {{product.title}}</br>
+        <strong>-Description:</strong> {{product.description}}</br>
+        <strong>-Price:</strong> {{product.price}}</br>
+        <strong>-Code:</strong> {{product.code}}</br>
+        <strong>-Stock:</strong> {{product.stock}}
+    </li>
+</ul>
+<form action="/profile" method="GET">
+    <button type="submit">Volver al profile</button>
+</form>
+<form action="/modifyProduct" method="GET">
+    <button type="submit">Modificar Productos</button>
+</form>
+<form action="/addproduct" method="GET">
+    <button type="submit">Agregar mas productos</button>
+</form>

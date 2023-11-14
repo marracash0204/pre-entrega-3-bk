@@ -1,0 +1,11 @@
+{{#if noProductsToDelete}}
+<h2>No hay productos que eliminar en el carrito</h2>
+{{else if noProducts}}
+<h2>No fue posible hacer su ticket, no hay productos agregados al carrito</h2>
+{{else}}
+<h2>Producto sin stock, por favor regresa para agregar otros productos</h2>
+{{/if}}
+
+<form action="/products" method="GET">
+  <button type="submit">Agregar más productos</button>
+</form>
